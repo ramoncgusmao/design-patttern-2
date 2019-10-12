@@ -2,6 +2,8 @@ package memento;
 
 import java.util.Calendar;
 
+
+
 public class Programa {
 
 	public static void main(String[] args) {
@@ -16,6 +18,8 @@ public class Programa {
 		historico.adiciona(c1.salvaEstado());
 		
 		System.out.println(historico.busca(2).getEstado().getTipo());
+		
+	
 		
 	}
 }
